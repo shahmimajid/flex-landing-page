@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.flex-container {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    padding: 20px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.link1,
+.link2,
+.link3 {
+    padding: 0 10px;
+}
