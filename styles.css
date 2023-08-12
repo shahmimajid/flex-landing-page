@@ -4,6 +4,7 @@
 
 }
 
+
 .flex-container {
     background-color: #1f2937;
     display: flex;
@@ -37,4 +38,30 @@
 .link2,
 .link3 {
     padding: 0 10px;
+}
+
+.contents {
+    padding-top: 30px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.myimages {
+    display: flex;
+    justify-content: flex-end;
+
 }
