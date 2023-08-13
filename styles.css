@@ -1,40 +1,105 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
+
 .flex-container {
+    
     background-color: #1f2937;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
+    
 }
 
 .menu {
-    padding: 20px;
-    width: 1100px;
-    display: flex;
-    justify-content: space-between;
+    width: 900px;
     font-family: Tahoma, Verdana, sans-serif;
+    display: flex;
+    justify-content: space-around;
 }
 
 .logo {
+    
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
 }
 
 .links {
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 20px;
+   
     font-size: 18px;
     color: #e5e7eb;
+    display: flex;
+    justify-content: flex-end;
 
 }
 
 .link1,
 .link2,
 .link3 {
-    padding: 0 10px;
+    margin-left: 20px;
+   
+}
+
+.info-container {
+    padding: 20px 0;
+    background-color: #1f2937;
+    display: flex;    
+    justify-content: center;
+}
+
+.info {
+    border: 1px solid #fff;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        
+}
+
+.info :first-child {
+    width: 300px;
+}
+
+.lefside {
+    margin: 40px 0;
+    
+
+}
+
+.maintext,
+.description,
+.signup,
+.myimages {
+    border: 1px solid white;
+}
+
+
+.maintext {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    
+}
+
+.description {
+    color: #fff;
+
+}
+
+.signup {
+    color: #fff;
+}
+
+
+.myimages {
+    /* border: 1px solid #fff; */
+    color: #fff;
+    
+
 }
